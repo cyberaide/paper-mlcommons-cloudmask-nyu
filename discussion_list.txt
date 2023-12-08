@@ -1,0 +1,4 @@
+Oct 18th 2022
+1. Getting comfortable with HPC and reproducing the code on NYU HPC
+2. Getting comfortable with the cloudmask benchmark and read related literature
+

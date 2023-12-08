@@ -1,0 +1,61 @@
+%% Contributed by Gregor von Laszewski
+\usepackage{textcomp}
+\usepackage{hyperref}
+%\usepackage[table]{xcolor}
+
+\usepackage{todonotes}
+\newcommand{\TODO}[1]{\todo[inline]{#1}}
+\newcommand{\NOTE}[1]{\textcolor{red}{[NOTE: #1]}}
+\newcommand{\FILE}[1]{\todo[inline,color=green!20]{File: #1}}
+
+\newcommand{\GITHUB}[1]{\todo[inline,color=green!20]{
+\href{https://github.com/laszewsk/mlcommons-uva/issues/#1}{GitHub Issue #1}}}
+
+
+\setcopyright{none}
+\settopmatter{printacmref=false}
+\renewcommand\footnotetextcopyrightpermission[1]{}
+
+%\usepackage{minted}
+%\setminted{fontsize=\footnotesize,xleftmargin=1.5\parindent}
+
+\usepackage{longtable}
+\usepackage{fancyvrb}
+
+% \usepackage{color}
+% \usepackage{listings}
+%\usepackage{xcolor}
+%\usemintedstyle{trac}
+%\definecolor{mblue}{rgb}{0.27,0.33,0.53}
+
+\definecolor{friendlybg}{HTML}{f0f0f0}
+\definecolor{lightgray}{rgb}{.9,.9,.9}
+\definecolor{darkgray}{rgb}{.4,.4,.4}
+\definecolor{purple}{rgb}{0.65, 0.12, 0.82}
+
+% \lstdefinelanguage{bash}{
+%   keywords={cms, cd},
+%   keywordstyle=\color{blue}\bfseries,
+%   keywords=[2]{set},
+%   keywordstyle=[2]\color{green}\bfseries,
+%   identifierstyle=\color{black},
+%   sensitive=false,
+%   comment=[l]{//},
+%   morecomment=[s]{/*}{*/},
+%   commentstyle=\color{purple}\ttfamily,
+%   stringstyle=\color{red}\ttfamily,
+%   morestring=[b]',
+%   morestring=[b]"
+% }
+
+% \lstset{
+%   language=bash,
+%   extendedchars=true,
+%   basicstyle=\footnotesize\ttfamily,
+%   showstringspaces=false,
+%   showspaces=false,
+%   tabsize=2,
+%   breaklines=true,
+%   showtabs=false
+% }
+
