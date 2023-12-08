@@ -1,4 +1,4 @@
-FILENAME=vonLaszewski-cloudmask-related
+FILENAME=vonLaszewski-cloudmask-nyu
 DIR=mlcommons-cloudmask-activities
 UPLOAD=upload
 
